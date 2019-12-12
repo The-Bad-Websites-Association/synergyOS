@@ -60,7 +60,7 @@ class Cows extends React.Component {
 
     addIframe = () => {
         let thisApp = document.getElementById(this.state.name)
-        thisApp.querySelector('.app-content').innerHTML = `<iframe src='http://dev.maydenacademy.co.uk/projects/2017/JS-game/'></iframe>`
+        thisApp.querySelector('.app-content').innerHTML = `<iframe src='https://dev.maydenacademy.co.uk/projects/2017/JS-game/'></iframe>`
     }
 
     render() {
@@ -83,7 +83,7 @@ class Cows extends React.Component {
                     <p>{this.state.name}</p>
                 </div>
                 <div className="app-content" style={appMinWidths}>
-                    <iframe title='cows' src='http://dev.maydenacademy.co.uk/projects/2017/JS-game/'></iframe>
+                    <iframe title='cows' src='https://dev.maydenacademy.co.uk/projects/2017/JS-game/'></iframe>
                 </div>
                 <div className="app-statusBar">
                     <div onPointerDown={e => {
