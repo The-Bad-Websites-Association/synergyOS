@@ -11,7 +11,7 @@ function endVid() {
     document.querySelector('.MenuBar').classList.remove('closed')
 }
 
-class Intro extends Component{
+class LoadScreen extends Component{
 
     render() {
         return(
@@ -26,4 +26,4 @@ class Intro extends Component{
     }
 }
 
-export default Intro
+export default LoadScreen

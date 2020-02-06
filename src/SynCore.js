@@ -3,7 +3,7 @@ import './App.css'
 import MenuBar from './Components/MenuBar'
 import Desktop from './Components/Desktop/Desktop'
 import logo from './res/synergyoslogo.png'
-import Intro from './Intro'
+import LoadScreen from './LoadScreen'
 
 class SynCore extends Component {
   constructor(props) {
@@ -76,7 +76,7 @@ class SynCore extends Component {
     document.getElementById('root').classList.add(this.state.currentTheme) 
     return (
       <div>
-        <Intro></Intro>
+        <LoadScreen></LoadScreen>
         <Desktop backgroundImg={this.state.backgroundImg} appState={this.state} />
         <MenuBar currentApps={this.state.currentApps} openApp={this.setAppOpen} />
       </div>
