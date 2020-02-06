@@ -28,7 +28,7 @@ body {
 
 @font-face {
     font-family: 'matrix';
-    src: url(./fonts/PressStart2P-Regular.ttf);
+    src: url(./../../fonts/PressStart2P-Regular.ttf);
 }
 
 #root {

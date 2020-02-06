@@ -1,24 +1,22 @@
 import React, {Component} from 'react'
 import AppList from '../Menu/AppList'
-import './Apps/Apps.css'
+import '../Apps/Apps.css'
 
-import AboutApp from './Apps/About/AboutApp'
-import GiphyApp from './Apps/Giphy/Giphy'
-import ThemesApp from './Apps/Themes/Themes'
-import Music from './Apps/Music/Music'
-import Nyan from './Apps/Nyan/Nyan'
-import Revelations from './Apps/Revelations/Revelations'
-import TopCat from './Apps/TopCat/TopCat'
-import Calculator from './Apps/Calculator/Calculator'
-import Cows from "./Apps/Cows/Cows";
-import Codepen from "./Apps/Codepen/Codepen"
-import Bagel from "./Apps/Bagel/Bagel"
-import SuperSpreadSheet from './Apps/Office/SuperSpreadSheet/SuperSpreadSheet'
-import SuperWriter from './Apps/Office/SuperWriter/SuperWriter'
-import SuperPresenter from './Apps/Office/SuperPresenter/SuperPresenter'
-import SuperDraw from './Apps/Office/SuperDraw/SuperDraw'
-import NES from './Apps/NESEmu/App'
-import NESControls from './Apps/NESEmu/Controls/NESControls'
+import AboutApp from '../Apps/About/AboutApp'
+import GiphyApp from '../Apps/Giphy/Giphy'
+import ThemesApp from '../Apps/Themes/Themes'
+import Music from '../Apps/Music/Music'
+import Nyan from '../Apps/Nyan/Nyan'
+import Revelations from '../Apps/Revelations/Revelations'
+import TopCat from '../Apps/TopCat/TopCat'
+import Calculator from '../Apps/Calculator/Calculator'
+import Cows from "../Apps/Cows/Cows";
+import Codepen from "../Apps/Codepen/Codepen"
+import Bagel from "../Apps/Bagel/Bagel"
+import SuperSpreadSheet from '../Apps/Office/SuperSpreadSheet/SuperSpreadSheet'
+import SuperWriter from '../Apps/Office/SuperWriter/SuperWriter'
+import SuperPresenter from '../Apps/Office/SuperPresenter/SuperPresenter'
+import SuperDraw from '../Apps/Office/SuperDraw/SuperDraw'
 
 class Desktop extends Component {
     constructor(props) {
@@ -66,7 +64,6 @@ class Desktop extends Component {
                 <Cows name='Cows' desktopState={desktopState}/>
                 <Codepen name='Codepen' desktopState={desktopState}/>
                 <Bagel name='Bagel' desktopState={desktopState}/>
-                <NES name='NES' desktopState={desktopState} />
                 <Calculator name="Calculator" desktopState={desktopState}/>
                 <SuperWriter name="SuperWriter" desktopState={desktopState} />
                 <SuperSpreadSheet name="SuperSpreadSheet" desktopState={desktopState} />

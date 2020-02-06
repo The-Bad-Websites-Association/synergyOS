@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
-import './App.css'
-import MenuBar from './Components/MenuBar'
-import Desktop from './Components/Desktop/Desktop'
-import logo from './res/synergyoslogo.png'
-import Intro from './Intro'
+import './BaseTheme.css'
+import MenuBar from './MenuBar'
+import Desktop from './Desktop/Desktop'
+import logo from './../../res/synergyoslogo.png'
+import LoadScreen from './LoadScreen'
 
-class App extends Component {
+class SynCore extends Component {
   constructor(props) {
     super(props);
 
@@ -76,7 +76,7 @@ class App extends Component {
     document.getElementById('root').classList.add(this.state.currentTheme) 
     return (
       <div>
-        <Intro></Intro>
+        <LoadScreen></LoadScreen>
         <Desktop backgroundImg={this.state.backgroundImg} appState={this.state} />
         <MenuBar currentApps={this.state.currentApps} openApp={this.setAppOpen} />
       </div>
@@ -84,4 +84,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default SynCore

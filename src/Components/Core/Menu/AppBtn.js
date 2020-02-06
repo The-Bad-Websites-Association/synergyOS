@@ -1,5 +1,5 @@
 import React from 'react'
-import circle from '../../res/circle.svg'
+import circle from '../../../res/circle.svg'
 
 function AppBtn(){
 

@@ -1,7 +1,7 @@
 import React from 'react'
 import screenfull from 'screenfull'
-import fullscreenClose from '../../res/fullscreenClose.svg'
-import fullscreenOpen from '../../res/fullscreenOpen.svg'
+import fullscreenClose from '../../../res/fullscreenClose.svg'
+import fullscreenOpen from '../../../res/fullscreenOpen.svg'
 
 
 const toggleFullscreen = () => {

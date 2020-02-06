@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import vid from './res/syn.mp4'
+import vid from './../../res/syn.mp4'
 import screenfull from 'screenfull'
 
-import './App.css'
+import './BaseTheme.css'
 
 
 function endVid() {
@@ -11,7 +11,7 @@ function endVid() {
     document.querySelector('.MenuBar').classList.remove('closed')
 }
 
-class Intro extends Component{
+class LoadScreen extends Component{
 
     render() {
         return(
@@ -26,4 +26,4 @@ class Intro extends Component{
     }
 }
 
-export default Intro
+export default LoadScreen

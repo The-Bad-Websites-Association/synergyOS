@@ -69,8 +69,8 @@ class AboutApp extends React.Component {
                 </div>
 
                 <div className="app-content aboutAppContainer" style={appMinWidths}>
-                    <h1>SynergyOS</h1>
-                    <p>v0.3</p>
+                    <h1>SynergyOS™</h1>
+                    <p>v1.0-indev</p>
                     <div className='aboutContactBoxWrapper'>
                         <div className='aboutContactBox'>
                             <img src={alex} alt='headshot' className='aboutHeadshot'/>
@@ -84,7 +84,7 @@ class AboutApp extends React.Component {
                         <br/>
                         <div className='aboutContactBox'>
                             <img src={josh} alt='headshot' className='aboutHeadshot'/>
-                            <a href='https://github.com/jdselby24' className='aboutName'>@jbselby24</a>
+                            <a href='https://github.com/jdselby24' className='aboutName'>@jdselby24</a>
 
                         </div>
                     </div><br/>
