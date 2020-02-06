@@ -69,7 +69,7 @@ class AboutApp extends React.Component {
                 </div>
 
                 <div className="app-content aboutAppContainer" style={appMinWidths}>
-                    <h1>SynergyOS</h1>
+                    <h1>SynergyOS™</h1>
                     <p>v1.0-indev</p>
                     <div className='aboutContactBoxWrapper'>
                         <div className='aboutContactBox'>
