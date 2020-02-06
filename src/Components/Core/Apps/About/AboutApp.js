@@ -84,7 +84,7 @@ class AboutApp extends React.Component {
                         <br/>
                         <div className='aboutContactBox'>
                             <img src={josh} alt='headshot' className='aboutHeadshot'/>
-                            <a href='https://github.com/jdselby24' className='aboutName'>@jbselby24</a>
+                            <a href='https://github.com/jdselby24' className='aboutName'>@jdselby24</a>
 
                         </div>
                     </div><br/>
