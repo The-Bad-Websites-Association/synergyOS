@@ -5,7 +5,7 @@ import Desktop from './Components/Desktop/Desktop'
 import logo from './res/synergyoslogo.png'
 import Intro from './Intro'
 
-class App extends Component {
+class SynCore extends Component {
   constructor(props) {
     super(props);
 
@@ -84,4 +84,4 @@ class App extends Component {
   }
 }
 
-export default App
+export default SynCore
