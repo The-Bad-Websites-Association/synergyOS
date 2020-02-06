@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import './App.css'
+import './BaseTheme.css'
 import MenuBar from './Components/MenuBar'
 import Desktop from './Components/Desktop/Desktop'
 import logo from './res/synergyoslogo.png'
