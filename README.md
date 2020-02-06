@@ -1,4 +1,4 @@
-# SynergyOS
+# SynergyOS™
 
 A Browser based OS, created using React
 
