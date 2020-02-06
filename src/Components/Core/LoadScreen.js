@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import vid from './res/syn.mp4'
+import vid from './../../res/syn.mp4'
 import screenfull from 'screenfull'
 
-import './App.css'
+import './BaseTheme.css'
 
 
 function endVid() {
